@@ -953,6 +953,7 @@ GameObject:
   - component: {fileID: 220979692}
   - component: {fileID: 220979694}
   - component: {fileID: 220979693}
+  - component: {fileID: 220979695}
   m_Layer: 5
   m_Name: PointsDisplay
   m_TagString: Untagged
@@ -1018,6 +1019,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220979691}
   m_CullTransparentMesh: 1
+--- !u!114 &220979695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220979691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996c6b9c7be30894c8c16a9ce3f038ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointCountDisplay: {fileID: 269304313}
 --- !u!1 &228711684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,7 +2149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftRightSpeed: 5
-  distCount: {fileID: 0}
+  distCount: {fileID: 472678230}
 --- !u!4 &538767305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d4f8dc8e963c3bd4e9521e3b4b9278ad, type: 3}
@@ -3290,13 +3304,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237796741}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75e4dfa89008b7e4d9d32d2328d8198d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeatFX: {fileID: 917931717}
-  pointCountDisplay: {fileID: 0}
 --- !u!54 &827712134
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3313,6 +3325,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &827712138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237796741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d04e5449d3d0b34fa4c8a747e7f5c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MeatFX: {fileID: 917931717}
 --- !u!1001 &868563943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3588,8 +3613,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e4dfa89008b7e4d9d32d2328d8198d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeatFX: {fileID: 0}
-  pointCountDisplay: {fileID: 269304313}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5390,13 +5413,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99545060}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75e4dfa89008b7e4d9d32d2328d8198d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeatFX: {fileID: 917931717}
-  pointCountDisplay: {fileID: 0}
 --- !u!54 &1743770473
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5413,6 +5434,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1743770477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99545060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d04e5449d3d0b34fa4c8a747e7f5c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MeatFX: {fileID: 917931717}
 --- !u!4 &1751131284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 800616031680524858, guid: cc9f980ee3a12ab49af49ee894ebd89a, type: 3}
@@ -5503,13 +5537,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570381746}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75e4dfa89008b7e4d9d32d2328d8198d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MeatFX: {fileID: 917931717}
-  pointCountDisplay: {fileID: 0}
 --- !u!54 &1765021922
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5526,6 +5558,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1765021926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570381746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d04e5449d3d0b34fa4c8a747e7f5c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MeatFX: {fileID: 917931717}
 --- !u!1001 &1771101058
 PrefabInstance:
   m_ObjectHideFlags: 0
